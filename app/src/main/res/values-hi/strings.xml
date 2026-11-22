@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">EasyPrint</string>
+
+    <!-- Home Screen -->
+    <string name="home_subtitle">प्रिंट करने के लिए दस्तावेज़ या फ़ोटो चुनें।</string>
+    <string name="select_file">फ़ाइल चुनें</string>
+    <string name="home_tip_whatsapp">सुझाव: आप WhatsApp से सीधे PDF या फ़ोटो शेयर करके भी यहाँ खोल सकते हैं।</string>
+
+    <!-- USB & Printer Status -->
+    <string name="status_checking_printer">प्रिंटर जाँचा जा रहा है…</string>
+    <string name="status_usb_connected">USB जुड़ा है</string>
+    <string name="status_usb_device_detected">USB डिवाइस मिला</string>
+    <string name="status_connect_otg">OTG से प्रिंटर जोड़ें</string>
+    <string name="status_connect_otg_short">OTG केबल जोड़ें</string>
+    <string name="status_otg_unavailable">इस फ़ोन में OTG उपलब्ध नहीं है</string>
+    <string name="status_print_service_setup">प्रिंटर सेवा सेटअप आवश्यक है</string>
+    <string name="status_hp_plugin_missing">HP Ink Tank 315 पर प्रिंट करने के लिए Android Print Settings में HP Print Service Plugin चालू या इंस्टॉल करें।</string>
+    <string name="status_no_usable_print_service">कोई सक्रिय प्रिंट सेवा नहीं मिली। कृपया Print Settings में प्रिंटर सेवा चालू करें।</string>
+    <string name="status_printer_not_available">प्रिंटर उपलब्ध नहीं है</string>
+    <string name="open_print_settings">Print Settings खोलें</string>
+
+    <!-- Preview & Document Info -->
+    <string name="preview_title">प्रीव्यू</string>
+    <string name="back_button">वापस</string>
+    <string name="change_file">दूसरी फ़ाइल चुनें</string>
+    <string name="settings_button">डिफ़ॉल्ट सेटिंग्स</string>
+    <string name="close_button">बंद करें</string>
+    <string name="preparing_document">दस्तावेज़ तैयार हो रहा है…</string>
+    <string name="page_counter">पेज %1$d / %2$d</string>
+    <string name="photo_counter">फ़ोटो %1$d / %2$d</string>
+    <string name="previous_page">पिछला</string>
+    <string name="next_page">अगला</string>
+    <string name="pdf_page_preview_cd">दस्तावेज़ पेज %1$d प्रीव्यू</string>
+    <string name="photo_preview_cd">%1$s पेपर पर फ़ोटो प्रीव्यू</string>
+    <string name="borderless_note">सामान्य प्रिंटर मार्जिन लागू होंगे; बिना बॉर्डर प्रिंटिंग की गारंटी नहीं है।</string>
+
+    <!-- Photo Size Presets -->
+    <string name="photo_size_label">फ़ोटो का आकार</string>
+    <string name="photo_size_small">छोटा</string>
+    <string name="photo_size_medium">मध्यम</string>
+    <string name="photo_size_large">बड़ा</string>
+    <string name="photo_size_full_sheet">पूरा पेज</string>
+
+    <!-- Multi-photo Layout -->
+    <string name="multi_photo_layout_label">शीट लेआउट</string>
+    <string name="layout_one_per_sheet">एक पेज पर एक</string>
+    <string name="layout_combine_on_sheet">एक पेज पर साथ में</string>
+
+    <!-- Print Settings -->
+    <string name="paper_size_label">पेपर</string>
+    <string name="paper_a4">A4</string>
+    <string name="paper_a5">A5</string>
+    <string name="paper_legal">Legal</string>
+    <string name="color_mode_label">रंग</string>
+    <string name="color_mode_color">रंगीन</string>
+    <string name="color_mode_bw">ब्लैक एंड व्हाइट</string>
+
+    <!-- Settings Sheet -->
+    <string name="defaults_title">डिफ़ॉल्ट प्रिंट सेटिंग्स</string>
+    <string name="defaults_subtitle">नई फ़ाइल खोलने पर अपने आप लागू होंगी।</string>
+    <string name="default_paper_size">डिफ़ॉल्ट पेपर आकार</string>
+    <string name="default_color_mode">डिफ़ॉल्ट रंग मोड</string>
+    <string name="done_button">हो गया</string>
+
+    <!-- Print Action & Status -->
+    <string name="print_button">प्रिंट करें</string>
+    <string name="print_dialog_opened">प्रिंट डायलॉग खुल गया है। प्रिंटर चुनें और Print दबाएँ।</string>
+    <string name="print_cancelled">प्रिंट रद्द किया गया।</string>
+    <string name="print_completed_sent">Android प्रिंट सिस्टम को भेजा गया। प्रिंट की पुष्टि प्रिंटर पर देखें।</string>
+    <string name="print_failed">प्रिंट शुरू नहीं हो सका। प्रिंटर की बिजली, OTG केबल और HP Print Service Plugin जाँचें।</string>
+
+    <!-- Error Messages -->
+    <string name="error_title">फ़ाइल नहीं खुल सकी</string>
+    <string name="error_unsupported_file">यह फ़ाइल प्रकार समर्थित नहीं है। कृपया PDF, JPG या PNG फ़ाइल चुनें।</string>
+    <string name="error_corrupted_pdf">यह PDF फ़ाइल खराब या अधूरी है और खुल नहीं सकती।</string>
+    <string name="error_password_pdf">इस PDF में पासवर्ड लगा है। प्रिंट करने से पहले इसे अनलॉक करें।</string>
+    <string name="error_uri_permission">शेयर की गई फ़ाइल पढ़ी नहीं जा सकी। कृपया इसे दोबारा शेयर करें।</string>
+    <string name="error_insufficient_storage">इस फ़ाइल को प्रिंट के लिए तैयार करने हेतु फ़ोन में पर्याप्त जगह नहीं है।</string>
+    <string name="error_large_image">यह फ़ोटो इस फ़ोन के लिए बहुत बड़ी है।</string>
+    <string name="error_generic">फ़ाइल पढ़ने में समस्या हुई। कृपया दोबारा प्रयास करें।</string>
+    <string name="try_another_file">दूसरी फ़ाइल चुनें</string>
+</resources>

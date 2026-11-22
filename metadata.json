@@ -1,0 +1,6 @@
+{
+  "name": "EasyPrint",
+  "description": "Offline shop printing app for PDFs and photos received from WhatsApp or device files over USB OTG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

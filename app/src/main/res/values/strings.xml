@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">EasyPrint</string>
+
+    <!-- Home Screen -->
+    <string name="home_subtitle">Select a document or photo to print.</string>
+    <string name="select_file">SELECT FILE</string>
+    <string name="home_tip_whatsapp">Tip: You can also open or share PDFs and photos directly from WhatsApp.</string>
+
+    <!-- USB & Printer Status -->
+    <string name="status_checking_printer">Checking printer…</string>
+    <string name="status_usb_connected">USB Connected</string>
+    <string name="status_usb_device_detected">USB device detected</string>
+    <string name="status_connect_otg">Connect printer using OTG</string>
+    <string name="status_connect_otg_short">Connect OTG cable</string>
+    <string name="status_otg_unavailable">OTG not available on this phone</string>
+    <string name="status_print_service_setup">Printer service needs setup</string>
+    <string name="status_hp_plugin_missing">Turn on or install HP Print Service Plugin in Android Print Settings to print to HP Ink Tank 315.</string>
+    <string name="status_no_usable_print_service">No active print service found. Open Android Print Settings to enable a printer service.</string>
+    <string name="status_printer_not_available">Printer not available</string>
+    <string name="open_print_settings">Open Print Settings</string>
+
+    <!-- Preview & Document Info -->
+    <string name="preview_title">Preview</string>
+    <string name="back_button">Back</string>
+    <string name="change_file">Change file</string>
+    <string name="settings_button">Default settings</string>
+    <string name="close_button">Close</string>
+    <string name="preparing_document">Preparing document…</string>
+    <string name="page_counter">Page %1$d of %2$d</string>
+    <string name="photo_counter">Photo %1$d of %2$d</string>
+    <string name="previous_page">Previous</string>
+    <string name="next_page">Next</string>
+    <string name="pdf_page_preview_cd">Document page %1$d preview</string>
+    <string name="photo_preview_cd">Photo preview on %1$s paper</string>
+    <string name="borderless_note">Standard printer margins apply; borderless printing is not guaranteed.</string>
+
+    <!-- Photo Size Presets (No confusing numerical dimensions in main UI) -->
+    <string name="photo_size_label">Photo Size</string>
+    <string name="photo_size_small">Small</string>
+    <string name="photo_size_medium">Medium</string>
+    <string name="photo_size_large">Large</string>
+    <string name="photo_size_full_sheet">Full Sheet</string>
+
+    <!-- Multi-photo Layout -->
+    <string name="multi_photo_layout_label">Sheet Layout</string>
+    <string name="layout_one_per_sheet">One per sheet</string>
+    <string name="layout_combine_on_sheet">Combine on one sheet</string>
+
+    <!-- Print Settings -->
+    <string name="paper_size_label">Paper</string>
+    <string name="paper_a4">A4</string>
+    <string name="paper_a5">A5</string>
+    <string name="paper_legal">Legal</string>
+    <string name="color_mode_label">Colour</string>
+    <string name="color_mode_color">Colour</string>
+    <string name="color_mode_bw">Black &amp; White</string>
+
+    <!-- Settings Sheet -->
+    <string name="defaults_title">Default Print Settings</string>
+    <string name="defaults_subtitle">Applied automatically when opening new files.</string>
+    <string name="default_paper_size">Default Paper Size</string>
+    <string name="default_color_mode">Default Colour Mode</string>
+    <string name="done_button">Done</string>
+
+    <!-- Print Action & Status -->
+    <string name="print_button">PRINT</string>
+    <string name="print_dialog_opened">Print dialog opened. Choose your printer and press Print.</string>
+    <string name="print_cancelled">Printing cancelled.</string>
+    <string name="print_completed_sent">Sent to Android print system. Check the printer to confirm output.</string>
+    <string name="print_failed">Could not start printing. Check printer power, OTG cable, and HP Print Service Plugin.</string>
+
+    <!-- Error Messages -->
+    <string name="error_title">Unable to Open File</string>
+    <string name="error_unsupported_file">This file format is not supported. Please choose a PDF, JPG, or PNG file.</string>
+    <string name="error_corrupted_pdf">This PDF file appears damaged or incomplete and cannot be opened.</string>
+    <string name="error_password_pdf">This PDF is password-protected. Please unlock it first before printing.</string>
+    <string name="error_uri_permission">Could not read the shared file. Try saving or sharing it again.</string>
+    <string name="error_insufficient_storage">Not enough free storage on the phone to prepare this file for printing.</string>
+    <string name="error_large_image">This image is too large to process safely on this phone.</string>
+    <string name="error_generic">Something went wrong while reading the file. Please try selecting it again.</string>
+    <string name="try_another_file">Select Another File</string>
+</resources>
